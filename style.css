@@ -1,0 +1,111 @@
+html {
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position:5% 0%,95% 85%;
+    background-color:hsl(185, 75%, 39%);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 500px 500px, 200px 200px;
+}
+body {
+    height:300px;
+    width:300px;
+    display:-webkit-flex;
+    flex-direction:column; 
+    justify-content:center;
+    min-height:100vh;
+    margin:auto;
+}
+    
+
+.container {
+    display:block;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.center{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-content:center;
+    align-content: center;
+    max-width:100%;
+    text-align: center;
+    padding-top:20px;
+    margin-left:10px;
+}
+
+.top {
+    position:relative;
+    display:inline;
+}
+
+.image {
+    overflow: hidden;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    
+}
+.prof-image {
+    position:absolute;
+    top:50%;
+    left:32%;
+    
+}
+
+
+.prof-image img {
+    border-radius: 50px;
+    border:5px solid white;
+}
+
+.bottom {
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px;
+    max-width:100%;
+    padding-left:40px;
+    padding-right:40px;
+    border-top:1px solid hsl(0, 0%, 59%);
+    overflow: hidden;
+    padding-bottom: 0px;
+    
+}
+
+.bottom p {
+    color: hsl(229, 23%, 23%);
+    font-size:18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight:lighter;
+    font-size:12px;
+    
+
+}
+
+h4 {
+    color: hsl(229, 23%, 23%);
+    font-size:18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    margin-top:20px;
+    margin-bottom:0px;
+    
+}
+
+.age {
+    font-size:18px;
+}
+
+.center p {
+    font-size:15px;
+    color: hsl(0, 0%, 59%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight:lighter;
+    
+}
